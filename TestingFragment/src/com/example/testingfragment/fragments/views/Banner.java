@@ -1,27 +1,31 @@
 package com.example.testingfragment.fragments.views;
 
-public class Banner {
-	
-}
+import android.content.Context;
+import android.graphics.drawable.Drawable;
+import android.util.AttributeSet;
+import android.view.View;
 
-/*public class Banner extends View {
+import com.example.testingfragment.R;
+
+
+public class Banner extends View {
 	private final Drawable logo;
 
 	public Banner(Context context) {
 		super(context);
-		logo = context.getResources().getDrawable(R.drawable.banner);
+		logo = context.getResources().getDrawable(R.drawable.images);
 		setBackgroundDrawable(logo);
 	}
 
 	public Banner(Context context, AttributeSet attrs) {
 		super(context, attrs);
-		logo = context.getResources().getDrawable(R.drawable.banner);
+		logo = context.getResources().getDrawable(R.drawable.images);
 		setBackgroundDrawable(logo);
 	}
 
 	public Banner(Context context, AttributeSet attrs, int defStyle) {
 		super(context, attrs, defStyle);
-		logo = context.getResources().getDrawable(R.drawable.banner);
+		logo = context.getResources().getDrawable(R.drawable.images);
 		setBackgroundDrawable(logo);
 	}
 
@@ -32,4 +36,4 @@ public class Banner {
 		setMeasuredDimension(width, height);
 	}
 
-}*/
+}
